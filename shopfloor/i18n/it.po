@@ -696,10 +696,10 @@ msgstr "Lotto %(old_lot_name)s sostituito dal lotto %(new_lot_name)s."
 
 #. module: shopfloor
 #. odoo-python
-#: code:addons/shopfloor/services/checkout.py:0
+#: code:addons/shopfloor/actions/message.py:0
 #, python-format
-msgid "Lot is not in the current transfer."
-msgstr "Il lotto non è nel trasferimento attuale."
+msgid "Lot changed"
+msgstr ""
 
 #. module: shopfloor
 #. odoo-python
@@ -1463,6 +1463,13 @@ msgstr "Scansionare il collo"
 
 #. module: shopfloor
 #. odoo-python
+#: code:addons/shopfloor/actions/message.py:0
+#, python-format
+msgid "Scanned lot differs from the previous scan: %(lot)s."
+msgstr ""
+
+#. module: shopfloor
+#. odoo-python
 #: code:addons/shopfloor/models/shopfloor_menu.py:0
 #, python-format
 msgid ""
@@ -1926,6 +1933,13 @@ msgstr "Questa ubicazione richiede colli. Scansionare un collo destinazione."
 #. odoo-python
 #: code:addons/shopfloor/actions/message.py:0
 #, python-format
+msgid "This lot does not exist anymore."
+msgstr ""
+
+#. module: shopfloor
+#. odoo-python
+#: code:addons/shopfloor/actions/message.py:0
+#, python-format
 msgid ""
 "This lot is part of a package with other products, please scan a package."
 msgstr ""
@@ -2056,6 +2070,13 @@ msgid ""
 msgstr ""
 "Il trasferimento ad un collo differente non è consentito, scansionare invece "
 "un'ubicazione."
+
+#. module: shopfloor
+#. odoo-python
+#: code:addons/shopfloor/actions/message.py:0
+#, python-format
+msgid "Unable to find a line with the same product but different lot."
+msgstr ""
 
 #. module: shopfloor
 #. odoo-python
@@ -2271,6 +2292,16 @@ msgstr "Nonsi possono prelevare più di {} unità."
 #: code:addons/shopfloor/actions/message.py:0
 #, python-format
 msgid ""
+"You scanned a different lot with the same product, do you want to change "
+"lot? Scan it again to confirm. The first line matching this product will be "
+"updated. "
+msgstr ""
+
+#. module: shopfloor
+#. odoo-python
+#: code:addons/shopfloor/actions/message.py:0
+#, python-format
+msgid ""
 "You scanned a different package with the same product, do you want to change "
 "pack? Scan it again to confirm"
 msgstr ""
@@ -2300,6 +2331,10 @@ msgstr ""
 #, python-format
 msgid "{} is not a valid destination package."
 msgstr "{} non è un collo destinazione valido."
+
+#, python-format
+#~ msgid "Lot is not in the current transfer."
+#~ msgstr "Il lotto non è nel trasferimento attuale."
 
 #, python-format
 #~ msgid ""

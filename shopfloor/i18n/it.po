@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-01-16 10:06+0000\n"
+"PO-Revision-Date: 2025-01-31 20:06+0000\n"
 "Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
 "Language-Team: none\n"
 "Language: it\n"
@@ -699,7 +699,7 @@ msgstr "Lotto %(old_lot_name)s sostituito dal lotto %(new_lot_name)s."
 #: code:addons/shopfloor/actions/message.py:0
 #, python-format
 msgid "Lot changed"
-msgstr ""
+msgstr "Lotto modificato"
 
 #. module: shopfloor
 #. odoo-python
@@ -1466,7 +1466,7 @@ msgstr "Scansionare il collo"
 #: code:addons/shopfloor/actions/message.py:0
 #, python-format
 msgid "Scanned lot differs from the previous scan: %(lot)s."
-msgstr ""
+msgstr "Il lotto letto è diverso da quello letto in precedenza: %(lot)s."
 
 #. module: shopfloor
 #. odoo-python
@@ -1934,7 +1934,7 @@ msgstr "Questa ubicazione richiede colli. Scansionare un collo destinazione."
 #: code:addons/shopfloor/actions/message.py:0
 #, python-format
 msgid "This lot does not exist anymore."
-msgstr ""
+msgstr "Questo loto non esiste più."
 
 #. module: shopfloor
 #. odoo-python
@@ -2077,6 +2077,7 @@ msgstr ""
 #, python-format
 msgid "Unable to find a line with the same product but different lot."
 msgstr ""
+"Impossibile trovare una riga con lo stesso prodotto ma un lotto diverso."
 
 #. module: shopfloor
 #. odoo-python
@@ -2296,6 +2297,9 @@ msgid ""
 "lot? Scan it again to confirm. The first line matching this product will be "
 "updated. "
 msgstr ""
+"Si è scansionato un lotto diverso con lo stesso prodotto, si vuole cambiare "
+"lotto? Scansionarlo di nuovo per confermare. La prima riga corrispondente a "
+"questo prodotto verrà aggiornata. "
 
 #. module: shopfloor
 #. odoo-python
